@@ -1,6 +1,5 @@
 Manufacturing Plant SCADA — Network Reconnaissance & Port Scan
-
- Description
+Description
 
 This project focuses on network reconnaissance and port scanning of a simulated Manufacturing Plant SCADA network. The assessment uses Nmap to identify active hosts, open ports, and services, and Wireshark to analyze network traffic.
 
