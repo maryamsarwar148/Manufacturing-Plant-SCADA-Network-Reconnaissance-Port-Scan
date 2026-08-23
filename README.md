@@ -1,5 +1,4 @@
 Manufacturing Plant SCADA — Network Reconnaissance & Port Scan
-
 ##Description
 
 This project focuses on network reconnaissance and port scanning of a simulated Manufacturing Plant SCADA network. The assessment uses Nmap to identify active hosts, open ports, and services, and Wireshark to analyze network traffic.
@@ -21,7 +20,7 @@ The project was performed in an authorized and isolated cybersecurity lab enviro
 - Kali Linux — Cybersecurity testing environment
 - VirtualBox — Virtual lab environment
 - GitHub — Project documentation and version control
-- 
+
 ## Results
 
 - Successfully identified active devices in the simulated SCADA network.
@@ -31,4 +30,4 @@ The project was performed in an authorized and isolated cybersecurity lab enviro
 - Network traffic between simulated SCADA devices was analyzed using Wireshark.
 - Potential exposure points were identified, including unnecessary services and insufficient network segmentation.
 - Security recommendations were documented to reduce the attack surface of the simulated SCADA environment.
-- 
+  
