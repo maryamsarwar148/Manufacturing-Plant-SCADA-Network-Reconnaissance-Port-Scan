@@ -6,11 +6,17 @@ This project focuses on authorized network reconnaissance and port scanning of a
 ## Objectives
 
 Perform network reconnaissance of the simulated SCADA environment.
+
 Identify active hosts and network devices.
+
 Scan for open and accessible ports.
+
 Identify running services and their versions.
+
 Analyze potential network exposure points.
+
 Capture and analyze network traffic.
+
 Document the findings in a professional reconnaissance report.
 
 ## Tools Used
