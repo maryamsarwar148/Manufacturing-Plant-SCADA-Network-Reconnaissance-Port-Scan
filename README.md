@@ -1,55 +1,34 @@
 ## *Manufacturing Plant SCADA — Network Reconnaissance & Port Scan*
 ## Description
 
-This project focuses on authorized network reconnaissance and port scanning of a simulated Manufacturing Plant SCADA network in a controlled laboratory environment. The objective is to identify active hosts, open ports, running services, and potential exposure points within the simulated SCADA infrastructure.
+This project demonstrates authorized network reconnaissance and port scanning of a simulated Manufacturing Plant SCADA network in a controlled laboratory environment. The assessment focuses on identifying active hosts, open ports, running services, and potential network exposure points.
 
 ## Objectives
 
-Perform network reconnaissance of the simulated SCADA environment.
-
-Identify active hosts and network devices.
-
-Scan for open and accessible ports.
-
-Identify running services and their versions.
-
-Analyze potential network exposure points.
-
-Capture and analyze network traffic.
-
-Document the findings in a professional reconnaissance report.
+- Identify active hosts within the simulated SCADA network.
+- Discover open and accessible ports.
+- Identify running services and their versions.
+- Analyze potential network exposure points.
+- Capture and analyze network traffic.
+- Document reconnaissance findings professionally.
+- Understand basic security requirements for SCADA networks.
 
 ## Tools Used
 
-Kali Linux
-Nmap
-Wireshark
-VirtualBox
-Command Line Interface (CLI)
+- Kali Linux
+- Nmap
+- Wireshark
+- VirtualBox
+- Command Line Interface (CLI)
+
 ## Network Devices
 
-SCADA Server
-HMI (Human Machine Interface)
-PLC (Programmable Logic Controller)
-Engineering Workstation
-Network Switch
-Simulated Industrial Network
-## Methodology
-
-Identify the target network and authorized IP range.
-Perform host discovery using Nmap.
-Scan discovered hosts for open ports.
-Identify services and service versions.
-Capture relevant network traffic using Wireshark.
-Analyze the collected results.
-Document potential exposure points and security recommendations.
-## Files Included
-
-Network Reconnaissance Report
-Nmap Scan Results
-Wireshark Packet Capture
-SCADA Network Screenshots
-Findings and Recommendations
+- SCADA Server
+- HMI (Human Machine Interface)
+- PLC (Programmable Logic Controller)
+- Engineering Workstation
+- Network Switch
+- Simulated Industrial Network
 ## Result
 
-The reconnaissance successfully identified active systems, accessible network ports, and running services within the simulated SCADA environment. The results helped demonstrate potential exposure points and provided a basis for improving network security and segmentation.
+The project successfully identified active hosts, open ports, running services, and network communication within the simulated Manufacturing Plant SCADA environment. Nmap was used for network reconnaissance and port scanning, while Wireshark was used to capture and analyze network traffic. The assessment helped identify potential exposure points and provided recommendations for improving the security of the SCADA network.
