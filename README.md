@@ -1,33 +1,43 @@
 ## *Manufacturing Plant SCADA — Network Reconnaissance & Port Scan*
-## Description
+Description
 
-This project focuses on network reconnaissance and port scanning of a simulated Manufacturing Plant SCADA network. The assessment uses Nmap to identify active hosts, open ports, and services, and Wireshark to analyze network traffic.
+This project focuses on authorized network reconnaissance and port scanning of a simulated Manufacturing Plant SCADA network in a controlled laboratory environment. The objective is to identify active hosts, open ports, running services, and potential exposure points within the simulated SCADA infrastructure.
 
-The project was performed in an authorized and isolated cybersecurity lab environment for educational purposes.facturing Plant SCADA — Network Reconnaissance & Port Scan
-## Objective
+Objectives
+Perform network reconnaissance of the simulated SCADA environment.
+Identify active hosts and network devices.
+Scan for open and accessible ports.
+Identify running services and their versions.
+Analyze potential network exposure points.
+Capture and analyze network traffic.
+Document the findings in a professional reconnaissance report.
+Tools Used
+Kali Linux
+Nmap
+Wireshark
+VirtualBox
+Command Line Interface (CLI)
+Network Devices
+SCADA Server
+HMI (Human Machine Interface)
+PLC (Programmable Logic Controller)
+Engineering Workstation
+Network Switch
+Simulated Industrial Network
+Methodology
+Identify the target network and authorized IP range.
+Perform host discovery using Nmap.
+Scan discovered hosts for open ports.
+Identify services and service versions.
+Capture relevant network traffic using Wireshark.
+Analyze the collected results.
+Document potential exposure points and security recommendations.
+Files Included
+Network Reconnaissance Report
+Nmap Scan Results
+Wireshark Packet Capture
+SCADA Network Screenshots
+Findings and Recommendations
+Result
 
-- To perform network reconnaissance on a simulated Manufacturing Plant SCADA network.
-- To identify active hosts and devices within the lab network.
-- To identify open ports and running services using Nmap.
-- To capture and analyze network traffic using Wireshark.
-- To identify potential network exposure points and security risks.
-- To document the findings in a professional cybersecurity report.
-- To understand basic security considerations for SCADA/OT environments.
-- ## Tools Used
-
-- Nmap — Network discovery and port/service scanning
-- Wireshark — Network packet capture and traffic analysis
-- Kali Linux — Cybersecurity testing environment
-- VirtualBox — Virtual lab environment
-- GitHub — Project documentation and version control
-
-## Results
-
-- Successfully identified active devices in the simulated SCADA network.
-- Identified open ports and running services using Nmap.
-- Port 502/TCP was identified on the simulated PLC, representing Modbus/TCP communication.
-- Web and management services were identified on selected SCADA devices.
-- Network traffic between simulated SCADA devices was analyzed using Wireshark.
-- Potential exposure points were identified, including unnecessary services and insufficient network segmentation.
-- Security recommendations were documented to reduce the attack surface of the simulated SCADA environment.
-  
+The reconnaissance successfully identified active systems, accessible network ports, and running services within the simulated SCADA environment. The results helped demonstrate potential exposure points and provided a basis for improving network security and segmentation.
